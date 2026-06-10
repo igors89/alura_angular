@@ -8,6 +8,8 @@ import { AppRoutingModule } from "src/app/app-routing.module";
 })
 export class ListarPensamentoComponent implements OnInit {
 
+  listaPensamentos = [];
+
   constructor() { }
 
   ngOnInit(): void {
