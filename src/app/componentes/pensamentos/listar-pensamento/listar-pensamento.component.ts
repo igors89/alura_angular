@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AppRoutingModule } from "src/app/app-routing.module";
 
 @Component({
   selector: 'app-listar-pensamento',
@@ -8,7 +7,18 @@ import { AppRoutingModule } from "src/app/app-routing.module";
 })
 export class ListarPensamentoComponent implements OnInit {
 
-  listaPensamentos = [];
+  listaPensamentos = [
+    {
+      conteudo: 'Passo informações para o componente filho',
+      autoria: 'Angular Componente Pai',
+      modelo: 'modelo1'
+    },
+    {
+      conteudo: 'Minha propriedade é decorada com @Input()',
+      autoria: 'Angular Componente Filho',
+      modelo: 'modelo2'
+    },
+  ];
 
   constructor() { }
 
