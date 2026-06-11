@@ -19,7 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     RodapeComponent,
     CriarPensamentoComponent,
     ListarPensamentoComponent,
-    PensamentoComponent
+    PensamentoComponent,
   ],
   imports: [
     BrowserModule,

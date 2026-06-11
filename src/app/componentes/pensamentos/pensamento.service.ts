@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, NgModule } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Pensamento } from './pensamento';
 import { Observable } from 'rxjs';
@@ -19,6 +19,16 @@ export class PensamentoService {
 
   criar(pensamento: Pensamento): Observable<Pensamento> {
     return this.http.post<Pensamento>(this.API, pensamento);
+  }
+
+  excluir(id: number): Observable<Pensamento> {
+    const url = `${this.API}/${id}`;
+    return this.http.delete<Pensamento>(url);
+  }
+
+  buscarPeloId(id: number): Observable<Pensamento> {
+    const url = `${this.API}/${id}`;
+    return this.http.get<Pensamento>(url);
   }
 
 }
