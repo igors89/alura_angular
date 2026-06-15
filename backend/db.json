@@ -7,12 +7,6 @@
       "modelo": "modelo3"
     },
     {
-      "id": 2,
-      "conteudo": "Mussum Ipsum, cacilds vidis litro abertis.  Diuretics paradis num copo é motivis de denguis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Cevadis im ampola pa arma uma pindureta.",
-      "autoria": "Eu",
-      "modelo": "modelo1"
-    },
-    {
       "id": 3,
       "conteudo": "Mussum Ipsum, cacilds vidis litro abertis.  Per aumento de cachacis, eu reclamis. A ordem dos tratores não altera o pão duris. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Atirei o pau no gatis, per gatis num morreus.",
       "autoria": "Eu",
@@ -23,12 +17,6 @@
       "autoria": "Eu",
       "modelo": "modelo1",
       "id": 4
-    },
-    {
-      "conteudo": "Aprendendo Angularcvbzxcvxcvzxcvzxc",
-      "autoria": "Dev",
-      "modelo": "modelo3",
-      "id": 5
     }
   ]
 }
